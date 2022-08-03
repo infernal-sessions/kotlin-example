@@ -21,6 +21,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.amshove.kluent:kluent:1.68")
+	testImplementation("org.assertj:assertj-core:3.23.1")
+	testImplementation("io.kotest:kotest-runner-junit5:5.4.1")
 }
 
 tasks.withType<KotlinCompile> {
